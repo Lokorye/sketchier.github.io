@@ -1612,6 +1612,45 @@ function onWindowKeyDown(a) {
 				case 65://a key pressed: open about menubar
 					onMenuAbout();
 					break
+                 case 48: // 0
+                    BRUSH_PRESSURE = 1;
+                    break;
+        
+                case 49: // 1
+                    BRUSH_PRESSURE = 0.1;
+                    break;
+        
+                case 50: // 2
+                    BRUSH_PRESSURE = 0.2;
+                    break;
+        
+                case 51: // 3
+                    BRUSH_PRESSURE = 0.3;
+                    break;
+        
+                case 52: // 4
+                    BRUSH_PRESSURE = 0.4;
+                    break;
+        
+                case 53: // 5
+                    BRUSH_PRESSURE = 0.5;
+                    break;
+        
+                case 54: // 6
+                    BRUSH_PRESSURE = 0.6;
+                    break;
+        
+                case 55: // 7
+                    BRUSH_PRESSURE = 0.7;
+                    break;
+        
+                case 56: // 8
+                    BRUSH_PRESSURE = 0.8;
+                    break;
+        
+                case 57: // 9
+                    BRUSH_PRESSURE = 0.9;
+                    break;            
     }
 }
 
